@@ -1,0 +1,21 @@
+{
+  "name": "koa-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.2",
+    "uuid": "^8.3.2"
+  }
+}
